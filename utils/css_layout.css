@@ -125,6 +125,19 @@
     font-size: 1.2em;
     font-weight: 600;
   }
+
+  #main > div.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+  #main > div.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
   #main div.linebreak{
     padding: 5px;
   }
