@@ -26,6 +26,8 @@ table{
 }
 img{
 	border:0;
+	display: flex;
+	gap: 25px;
     vertical-align:middle;
     -ms-interpolation-mode: bicubic;
 }
